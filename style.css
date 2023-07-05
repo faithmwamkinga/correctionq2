@@ -1,0 +1,79 @@
+body{
+  background-color: #f9fafd;
+}
+.todo{
+    background-color: aqua;
+    text-align: center;
+    width: 70%;
+    margin-left: 13%;
+}
+#task{
+  width: 50vw;
+  height: 7vh;
+  text-align: center;
+  font-size: 17px;
+  margin-bottom: 2%;
+}
+#addbt{
+  width: 10vw;
+  height: 7vh;
+  background-color: aqua;
+  border: none;
+  border-radius: 20px;
+  margin-bottom: 2%;
+
+}
+.p{
+    font-size: 15px;
+}
+.p1{
+    font-size: 10px;
+    margin-bottom: 3%;
+}
+.logout{
+    background: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #3C3E4B;
+    color: black;
+    cursor: pointer;
+    font-size: 14px;
+}
+.completed {
+    text-decoration: line-through;
+    color: gray;
+  }
+#registration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.persona {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+  padding: 10px;
+  background-color: aqua;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 80%;
+  margin-top: 3%;
+}
+.persona input[type="checkbox"] {
+  margin-right: 10px;
+}
+.persona span {
+  display: flex;
+  align-items: center;
+}
+.persona i {
+  color: #777;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.persona input[type="checkbox"]:checked + input {
+  text-decoration: line-through;
+  color: rgb(173, 66, 66);
+}
